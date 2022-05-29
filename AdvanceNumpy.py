@@ -18,7 +18,8 @@ print("Sorting \n" , np.sort(z,axis=0))
 dt = (np.dtype([('name','S10'),('cell' , int)]))
 listOfStd = (np.array([('imtiaz',33),('ilyas' , 55),('Fayyaz',21)], dtype=dt))
 print(listOfStd)
-print("Sorted List = " , np.sort(listOfStd , order='name'))
+print("Sorted List = " , np.sort(listOfStd , order="cell" , axis=0))
+
 # print(np.typename(listOfStd))
 
 
